@@ -1,4 +1,4 @@
-const baseURL = "http://192.168.0.14:8000";
+const baseURL = "http://ec2-18-117-92-124.us-east-2.compute.amazonaws.com:8000";
 const environment = "dev";
 
 export const getQueryData = async (question) => {
