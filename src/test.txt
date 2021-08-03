@@ -1,0 +1,6 @@
+scp -i ./xyz.pem ./hello.txt ec2-user@178.x.x.21:/home/ec2-user/hello/
+
+scp -i "chatbot-keypair.pem" ./pytorch_model.bin ubuntu@ec2-3-15-187-54.us-east-2.compute.amazonaws.com:/home/ubuntu/Chatbot/chatbot-backend
+
+
+curl -d '{"query":"what are the three categories to implement question answer technology"}' -H "Content-Type: application/json" -X POST http://192.168.0.14:8000/chatbot/data

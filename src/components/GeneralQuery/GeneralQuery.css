@@ -1,0 +1,17 @@
+.general-query-container {
+  background-color: rgb(55, 107, 126);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: medium;
+  position: relative;
+  width: 184.5px;
+  margin-left: auto;
+  text-align: left;
+}
+
+a {    
+  font-size: 0.9rem; 
+  color: rgb(255,255,255); 
+}
